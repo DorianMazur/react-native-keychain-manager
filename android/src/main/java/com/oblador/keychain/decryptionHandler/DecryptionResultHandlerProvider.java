@@ -1,4 +1,4 @@
-package com.oblador.keychain.decryptionHandler;
+package com.dorianmazur.keychain.decryptionHandler;
 
 import android.os.Build;
 
@@ -6,7 +6,7 @@ import androidx.annotation.NonNull;
 import androidx.biometric.BiometricPrompt;
 
 import com.facebook.react.bridge.ReactApplicationContext;
-import com.oblador.keychain.cipherStorage.CipherStorage;
+import com.dorianmazur.keychain.cipherStorage.CipherStorage;
 
 import java.util.Arrays;
 

@@ -1,4 +1,4 @@
-package com.oblador.keychain;
+package com.dorianmazur.keychain;
 
 import android.os.Build;
 import android.text.TextUtils;
@@ -17,19 +17,19 @@ import com.facebook.react.bridge.ReactContextBaseJavaModule;
 import com.facebook.react.bridge.ReactMethod;
 import com.facebook.react.bridge.ReadableMap;
 import com.facebook.react.bridge.WritableMap;
-import com.oblador.keychain.PrefsStorage.ResultSet;
-import com.oblador.keychain.cipherStorage.CipherStorage;
-import com.oblador.keychain.cipherStorage.CipherStorage.DecryptionResult;
-import com.oblador.keychain.cipherStorage.CipherStorage.EncryptionResult;
-import com.oblador.keychain.cipherStorage.CipherStorageBase;
-import com.oblador.keychain.cipherStorage.CipherStorageFacebookConceal;
-import com.oblador.keychain.cipherStorage.CipherStorageKeystoreAesCbc;
-import com.oblador.keychain.cipherStorage.CipherStorageKeystoreRsaEcb;
-import com.oblador.keychain.decryptionHandler.DecryptionResultHandler;
-import com.oblador.keychain.decryptionHandler.DecryptionResultHandlerProvider;
-import com.oblador.keychain.exceptions.CryptoFailedException;
-import com.oblador.keychain.exceptions.EmptyParameterException;
-import com.oblador.keychain.exceptions.KeyStoreAccessException;
+import com.dorianmazur.keychain.PrefsStorage.ResultSet;
+import com.dorianmazur.keychain.cipherStorage.CipherStorage;
+import com.dorianmazur.keychain.cipherStorage.CipherStorage.DecryptionResult;
+import com.dorianmazur.keychain.cipherStorage.CipherStorage.EncryptionResult;
+import com.dorianmazur.keychain.cipherStorage.CipherStorageBase;
+import com.dorianmazur.keychain.cipherStorage.CipherStorageFacebookConceal;
+import com.dorianmazur.keychain.cipherStorage.CipherStorageKeystoreAesCbc;
+import com.dorianmazur.keychain.cipherStorage.CipherStorageKeystoreRsaEcb;
+import com.dorianmazur.keychain.decryptionHandler.DecryptionResultHandler;
+import com.dorianmazur.keychain.decryptionHandler.DecryptionResultHandlerProvider;
+import com.dorianmazur.keychain.exceptions.CryptoFailedException;
+import com.dorianmazur.keychain.exceptions.EmptyParameterException;
+import com.dorianmazur.keychain.exceptions.KeyStoreAccessException;
 
 import java.util.ArrayList;
 import java.util.Collection;

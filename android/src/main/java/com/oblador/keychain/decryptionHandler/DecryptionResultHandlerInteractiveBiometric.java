@@ -1,4 +1,4 @@
-package com.oblador.keychain.decryptionHandler;
+package com.dorianmazur.keychain.decryptionHandler;
 
 import android.os.Looper;
 import android.util.Log;
@@ -10,12 +10,12 @@ import androidx.fragment.app.FragmentActivity;
 
 import com.facebook.react.bridge.AssertionException;
 import com.facebook.react.bridge.ReactApplicationContext;
-import com.oblador.keychain.DeviceAvailability;
-import com.oblador.keychain.cipherStorage.CipherStorage;
-import com.oblador.keychain.cipherStorage.CipherStorage.DecryptionResult;
-import com.oblador.keychain.cipherStorage.CipherStorage.DecryptionContext;
-import com.oblador.keychain.cipherStorage.CipherStorageBase;
-import com.oblador.keychain.exceptions.CryptoFailedException;
+import com.dorianmazur.keychain.DeviceAvailability;
+import com.dorianmazur.keychain.cipherStorage.CipherStorage;
+import com.dorianmazur.keychain.cipherStorage.CipherStorage.DecryptionResult;
+import com.dorianmazur.keychain.cipherStorage.CipherStorage.DecryptionContext;
+import com.dorianmazur.keychain.cipherStorage.CipherStorageBase;
+import com.dorianmazur.keychain.exceptions.CryptoFailedException;
 
 import java.util.concurrent.Executor;
 import java.util.concurrent.Executors;

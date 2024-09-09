@@ -1,10 +1,10 @@
-package com.oblador.keychain.decryptionHandler;
+package com.dorianmazur.keychain.decryptionHandler;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.oblador.keychain.cipherStorage.CipherStorage.DecryptionContext;
-import com.oblador.keychain.cipherStorage.CipherStorage.DecryptionResult;
+import com.dorianmazur.keychain.cipherStorage.CipherStorage.DecryptionContext;
+import com.dorianmazur.keychain.cipherStorage.CipherStorage.DecryptionResult;
 
 /** Handler that allows to inject some actions during decrypt operations. */
 public interface DecryptionResultHandler {

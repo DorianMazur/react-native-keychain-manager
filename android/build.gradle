@@ -32,7 +32,7 @@ repositories {
 android {
   // Conditional for compatibility with AGP <4.2.
   if (project.android.hasProperty("namespace")) {
-    namespace = "com.oblador.keychain"
+    namespace = "com.dorianmazur.keychain"
   }
   compileSdkVersion safeExtGet('compileSdkVersion', 33)
   buildToolsVersion safeExtGet('buildToolsVersion', '33.0.0')
@@ -96,7 +96,7 @@ if (isNewArchitectureEnabled()) {
   react {
     jsRootDir = file("../src/")
     libraryName = "RNKeychain"
-    codegenJavaPackageName = "com.oblador.keychain"
+    codegenJavaPackageName = "com.dorianmazur.keychain"
   }
 }
 

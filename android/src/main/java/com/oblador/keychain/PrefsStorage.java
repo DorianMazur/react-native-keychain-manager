@@ -1,4 +1,4 @@
-package com.oblador.keychain;
+package com.dorianmazur.keychain;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -8,9 +8,9 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import com.facebook.react.bridge.ReactApplicationContext;
-import com.oblador.keychain.KeychainModule.KnownCiphers;
-import com.oblador.keychain.cipherStorage.CipherStorage;
-import com.oblador.keychain.cipherStorage.CipherStorage.EncryptionResult;
+import com.dorianmazur.keychain.KeychainModule.KnownCiphers;
+import com.dorianmazur.keychain.cipherStorage.CipherStorage;
+import com.dorianmazur.keychain.cipherStorage.CipherStorage.EncryptionResult;
 
 import java.util.HashSet;
 import java.util.Set;

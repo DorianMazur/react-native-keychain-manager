@@ -1,4 +1,4 @@
-package com.oblador.keychain.decryptionHandler;
+package com.dorianmazur.keychain.decryptionHandler;
 
 import android.os.Looper;
 import android.util.Log;
@@ -8,7 +8,7 @@ import androidx.biometric.BiometricPrompt;
 import androidx.fragment.app.FragmentActivity;
 
 import com.facebook.react.bridge.ReactApplicationContext;
-import com.oblador.keychain.cipherStorage.CipherStorage;
+import com.dorianmazur.keychain.cipherStorage.CipherStorage;
 
 public class DecryptionResultHandlerInteractiveBiometricManualRetry extends DecryptionResultHandlerInteractiveBiometric implements DecryptionResultHandler {
   private BiometricPrompt presentedPrompt;

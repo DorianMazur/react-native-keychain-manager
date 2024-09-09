@@ -1,11 +1,11 @@
-package com.oblador.keychain.decryptionHandler;
+package com.dorianmazur.keychain.decryptionHandler;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.oblador.keychain.cipherStorage.CipherStorage.DecryptionContext;
-import com.oblador.keychain.cipherStorage.CipherStorage.DecryptionResult;
-import com.oblador.keychain.exceptions.CryptoFailedException;
+import com.dorianmazur.keychain.cipherStorage.CipherStorage.DecryptionContext;
+import com.dorianmazur.keychain.cipherStorage.CipherStorage.DecryptionResult;
+import com.dorianmazur.keychain.exceptions.CryptoFailedException;
 
 public class DecryptionResultHandlerNonInteractive implements DecryptionResultHandler {
   private DecryptionResult result;

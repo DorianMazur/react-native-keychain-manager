@@ -1,4 +1,4 @@
-package com.oblador.keychain;
+package com.dorianmazur.keychain;
 
 import com.facebook.react.bridge.ReactApplicationContext;
 

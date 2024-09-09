@@ -1,12 +1,12 @@
-package com.oblador.keychain.cipherStorage;
+package com.dorianmazur.keychain.cipherStorage;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.oblador.keychain.SecurityLevel;
-import com.oblador.keychain.decryptionHandler.DecryptionResultHandler;
-import com.oblador.keychain.exceptions.CryptoFailedException;
-import com.oblador.keychain.exceptions.KeyStoreAccessException;
+import com.dorianmazur.keychain.SecurityLevel;
+import com.dorianmazur.keychain.decryptionHandler.DecryptionResultHandler;
+import com.dorianmazur.keychain.exceptions.CryptoFailedException;
+import com.dorianmazur.keychain.exceptions.KeyStoreAccessException;
 
 import java.security.Key;
 import java.util.Set;

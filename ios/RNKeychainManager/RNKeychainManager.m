@@ -28,7 +28,7 @@ RCT_EXPORT_MODULE();
 
 - (dispatch_queue_t)methodQueue
 {
-  return dispatch_queue_create("com.oblador.KeychainQueue", DISPATCH_QUEUE_SERIAL);
+  return dispatch_queue_create("com.dorianmazur.KeychainQueue", DISPATCH_QUEUE_SERIAL);
 }
 
 // Messages from the comments in <Security/SecBase.h>

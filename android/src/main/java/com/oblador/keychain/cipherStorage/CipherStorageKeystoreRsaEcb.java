@@ -1,4 +1,4 @@
-package com.oblador.keychain.cipherStorage;
+package com.dorianmazur.keychain.cipherStorage;
 
 import android.annotation.SuppressLint;
 import android.os.Build;
@@ -11,12 +11,12 @@ import android.util.Log;
 import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
 
-import com.oblador.keychain.KeychainModule;
-import com.oblador.keychain.SecurityLevel;
-import com.oblador.keychain.decryptionHandler.DecryptionResultHandler;
-import com.oblador.keychain.decryptionHandler.DecryptionResultHandlerNonInteractive;
-import com.oblador.keychain.exceptions.CryptoFailedException;
-import com.oblador.keychain.exceptions.KeyStoreAccessException;
+import com.dorianmazur.keychain.KeychainModule;
+import com.dorianmazur.keychain.SecurityLevel;
+import com.dorianmazur.keychain.decryptionHandler.DecryptionResultHandler;
+import com.dorianmazur.keychain.decryptionHandler.DecryptionResultHandlerNonInteractive;
+import com.dorianmazur.keychain.exceptions.CryptoFailedException;
+import com.dorianmazur.keychain.exceptions.KeyStoreAccessException;
 
 import java.io.IOException;
 import java.security.GeneralSecurityException;

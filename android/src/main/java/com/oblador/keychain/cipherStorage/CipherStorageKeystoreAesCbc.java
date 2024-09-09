@@ -1,4 +1,4 @@
-package com.oblador.keychain.cipherStorage;
+package com.dorianmazur.keychain.cipherStorage;
 
 import android.annotation.TargetApi;
 import android.os.Build;
@@ -10,11 +10,11 @@ import android.util.Log;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.oblador.keychain.KeychainModule.KnownCiphers;
-import com.oblador.keychain.SecurityLevel;
-import com.oblador.keychain.decryptionHandler.DecryptionResultHandler;
-import com.oblador.keychain.exceptions.CryptoFailedException;
-import com.oblador.keychain.exceptions.KeyStoreAccessException;
+import com.dorianmazur.keychain.KeychainModule.KnownCiphers;
+import com.dorianmazur.keychain.SecurityLevel;
+import com.dorianmazur.keychain.decryptionHandler.DecryptionResultHandler;
+import com.dorianmazur.keychain.exceptions.CryptoFailedException;
+import com.dorianmazur.keychain.exceptions.KeyStoreAccessException;
 
 import java.io.IOException;
 import java.security.GeneralSecurityException;
@@ -243,7 +243,6 @@ public class CipherStorageKeystoreAesCbc extends CipherStorageBase {
 
       // decrypt the bytes using cipher.doFinal(). Using a CipherInputStream for decryption has historically led to issues
       // on the Pixel family of devices.
-      // see https://github.com/oblador/react-native-keychain/issues/383
       byte[] decryptedBytes = cipher.doFinal(bytes, IV.IV_LENGTH, bytes.length - IV.IV_LENGTH);
       return new String(decryptedBytes, UTF8);
     } catch (Throwable fail) {

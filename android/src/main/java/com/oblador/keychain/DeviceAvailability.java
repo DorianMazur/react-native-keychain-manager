@@ -1,4 +1,4 @@
-package com.oblador.keychain;
+package com.dorianmazur.keychain;
 
 import android.Manifest;
 import android.annotation.TargetApi;

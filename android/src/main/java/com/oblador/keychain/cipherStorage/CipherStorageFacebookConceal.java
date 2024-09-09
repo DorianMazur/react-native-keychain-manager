@@ -1,4 +1,4 @@
-package com.oblador.keychain.cipherStorage;
+package com.dorianmazur.keychain.cipherStorage;
 
 import android.os.Build;
 import android.security.keystore.KeyGenParameterSpec;
@@ -15,10 +15,10 @@ import com.facebook.crypto.Entity;
 import com.facebook.crypto.keychain.KeyChain;
 import com.facebook.react.bridge.AssertionException;
 import com.facebook.react.bridge.ReactApplicationContext;
-import com.oblador.keychain.KeychainModule.KnownCiphers;
-import com.oblador.keychain.SecurityLevel;
-import com.oblador.keychain.decryptionHandler.DecryptionResultHandler;
-import com.oblador.keychain.exceptions.CryptoFailedException;
+import com.dorianmazur.keychain.KeychainModule.KnownCiphers;
+import com.dorianmazur.keychain.SecurityLevel;
+import com.dorianmazur.keychain.decryptionHandler.DecryptionResultHandler;
+import com.dorianmazur.keychain.exceptions.CryptoFailedException;
 
 import java.security.GeneralSecurityException;
 import java.security.Key;

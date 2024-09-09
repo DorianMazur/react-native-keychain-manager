@@ -8,14 +8,14 @@ Pod::Spec.new do |s|
   s.name           = "RNKeychain"
   s.version        = version
   s.summary        = "Keychain Access for React Native."
-  s.homepage       = "https://github.com/oblador/react-native-keychain"
+  s.homepage       = "https://github.com/DorianMazur/react-native-keychain-manager"
   s.license        = "MIT"
-  s.author         = { "Joel Arvidsson" => "joel@oblador.se" }
+  s.author         = { "Dorian Mazur" => "mazur.dorian15@gmail.com" }
   s.ios.deployment_target = '9.0'
   s.tvos.deployment_target = '9.0'
   s.osx.deployment_target = '10.13'
   s.visionos.deployment_target = '1.0'
-  s.source         = { :git => "https://github.com/oblador/react-native-keychain.git", :tag => "v#{s.version}" }
+  s.source         = { :git => "https://github.com/DorianMazur/react-native-keychain-manager.git", :tag => "v#{s.version}" }
   s.source_files   = 'ios/RNKeychainManager/**/*.{h,m}'
   s.preserve_paths = "**/*.js"
 

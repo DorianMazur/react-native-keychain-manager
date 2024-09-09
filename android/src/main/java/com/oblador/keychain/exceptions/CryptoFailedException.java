@@ -1,4 +1,4 @@
-package com.oblador.keychain.exceptions;
+package com.dorianmazur.keychain.exceptions;
 
 import androidx.annotation.Nullable;
 

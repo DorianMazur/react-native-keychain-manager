@@ -1,4 +1,4 @@
-package com.oblador.keychain.cipherStorage;
+package com.dorianmazur.keychain.cipherStorage;
 
 import android.os.Build;
 import android.security.keystore.KeyGenParameterSpec;
@@ -10,9 +10,9 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.VisibleForTesting;
 
-import com.oblador.keychain.SecurityLevel;
-import com.oblador.keychain.exceptions.CryptoFailedException;
-import com.oblador.keychain.exceptions.KeyStoreAccessException;
+import com.dorianmazur.keychain.SecurityLevel;
+import com.dorianmazur.keychain.exceptions.CryptoFailedException;
+import com.dorianmazur.keychain.exceptions.KeyStoreAccessException;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
@@ -41,7 +41,7 @@ import javax.crypto.CipherOutputStream;
 import javax.crypto.NoSuchPaddingException;
 import javax.crypto.spec.IvParameterSpec;
 
-import static com.oblador.keychain.SecurityLevel.SECURE_HARDWARE;
+import static com.dorianmazur.keychain.SecurityLevel.SECURE_HARDWARE;
 
 @SuppressWarnings({"unused", "WeakerAccess", "CharsetObjectCanBeUsed", "UnusedReturnValue"})
 abstract public class CipherStorageBase implements CipherStorage {
