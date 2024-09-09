@@ -48,7 +48,6 @@ describe('Biometrics Access Control', () => {
     await element(by.text('Save')).tap();
     await expect(element(by.text(/^Credentials saved! .*$/))).toBeVisible();
     // Biometric prompt is not available in the IOS simulator
-    // https://github.com/oblador/react-native-keychain/issues/340
     if (device.getPlatform() === 'android') {
       setTimeout(() => {
         cp.spawnSync('adb', ['-e', 'emu', 'finger', 'touch', '1']);
@@ -63,7 +62,6 @@ describe('Biometrics Access Control', () => {
   it('should retrieve username and password after app launch', async () => {
     await expect(element(by.text('Keychain Example'))).toExist();
     // Biometric prompt is not available in the IOS simulator
-    // https://github.com/oblador/react-native-keychain/issues/340
     if (device.getPlatform() === 'android') {
       setTimeout(() => {
         cp.spawnSync('adb', ['-e', 'emu', 'finger', 'touch', '1']);
