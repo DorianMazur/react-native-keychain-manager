@@ -2,7 +2,7 @@
   "extends": "@react-native/typescript-config/tsconfig.json",
   "compilerOptions": {
     "paths": {
-      "react-native-keychain": ["../src/index"]
+      "react-native-keychain-manager": ["../src/index"]
     }
   }
 }

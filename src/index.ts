@@ -105,7 +105,7 @@ const AUTH_PROMPT_DEFAULTS = {
 function normalizeServiceOption(serviceOrOptions?: string | Options): Options {
   if (typeof serviceOrOptions === 'string') {
     console.warn(
-      `You passed a service string as an argument to one of the react-native-keychain functions.
+      `You passed a service string as an argument to one of the react-native-keychain-manager functions.
       This way of passing service is deprecated and will be removed in a future major.
       Please update your code to use { service: ${JSON.stringify(
         serviceOrOptions
@@ -126,7 +126,7 @@ function normalizeOptions(
 
   if (typeof authenticationPrompt === 'string') {
     console.warn(
-      `You passed a authenticationPrompt string as an argument to one of the react-native-keychain functions.
+      `You passed a authenticationPrompt string as an argument to one of the react-native-keychain-manager functions.
       This way of passing authenticationPrompt is deprecated and will be removed in a future major.
       Please update your code to use { authenticationPrompt: { title: ${JSON.stringify(
         authenticationPrompt

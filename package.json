@@ -45,7 +45,7 @@
     "url": "https://github.com/DorianMazur/react-native-keychain-manager/issues"
   },
   "typescript": {
-    "definition": "typings/react-native-keychain.d.ts"
+    "definition": "typings/react-native-keychain-manager.d.ts"
   },
   "packageManager": "yarn@3.6.1",
   "repository": {

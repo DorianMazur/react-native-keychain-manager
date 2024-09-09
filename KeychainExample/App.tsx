@@ -11,7 +11,7 @@ import {
   View,
 } from 'react-native';
 import SegmentedControlTab from 'react-native-segmented-control-tab';
-import * as Keychain from 'react-native-keychain';
+import * as Keychain from 'react-native-keychain-manager';
 
 const ACCESS_CONTROL_OPTIONS = ['None', 'Passcode', 'Password'];
 const ACCESS_CONTROL_OPTIONS_ANDROID = ['None'];

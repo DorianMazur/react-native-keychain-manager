@@ -1,4 +1,4 @@
-rootProject.name = 'react-native-keychain'
+rootProject.name = 'react-native-keychain-manager'
 
 include(":library")
 
