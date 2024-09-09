@@ -1,6 +1,6 @@
 {
   "name": "react-native-keychain-manager",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Keychain Access for React Native",
   "main": "./lib/commonjs/index.js",
   "module": "./lib/module/index",
@@ -43,9 +43,6 @@
   "homepage": "https://github.com/DorianMazur/react-native-keychain-manager",
   "bugs": {
     "url": "https://github.com/DorianMazur/react-native-keychain-manager/issues"
-  },
-  "typescript": {
-    "definition": "typings/react-native-keychain-manager.d.ts"
   },
   "packageManager": "yarn@3.6.1",
   "repository": {

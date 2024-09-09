@@ -15,6 +15,7 @@
   - [Usage](#usage)
   - [API](#api)
     - [`setGenericPassword(username, password, [{ accessControl, accessible, accessGroup, service, securityLevel }])`](#setgenericpasswordusername-password--accesscontrol-accessible-accessgroup-service-securitylevel-)
+    - [`hasGenericPassword([{ service }])`](#hasgenericpassword-service-)
     - [`getGenericPassword([{ authenticationPrompt, service, accessControl }])`](#getgenericpassword-authenticationprompt-service-accesscontrol-)
     - [`resetGenericPassword([{ service }])`](#resetgenericpassword-service-)
     - [`getAllGenericPasswordServices()`](#getallgenericpasswordservices)
@@ -106,6 +107,10 @@ Both `setGenericPassword` and `setInternetCredentials` are limited to strings on
 ### `setGenericPassword(username, password, [{ accessControl, accessible, accessGroup, service, securityLevel }])`
 
 Will store the username/password combination in the secure storage. Resolves to `{service, storage}` or rejects in case of an error. `storage` - is a name of used internal cipher for saving secret; `service` - name used for storing secret in internal storage (empty string resolved to valid default name).
+
+### `hasGenericPassword([{ service }])`
+
+Will check if the username/password combination is available for service in the secure storage. Resolves to `true` if an entry exists or `false` if it doesn't.
 
 ### `getGenericPassword([{ authenticationPrompt, service, accessControl }])`
 
