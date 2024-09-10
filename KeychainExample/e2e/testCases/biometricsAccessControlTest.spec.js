@@ -61,6 +61,7 @@ describe('Biometrics Access Control', () => {
 
   it('should retrieve username and password after app launch', async () => {
     await expect(element(by.text('Keychain Example'))).toExist();
+    await expect(element(by.text('hasGenericPassword: true'))).toBeVisible();
     // Biometric prompt is not available in the IOS simulator
     if (device.getPlatform() === 'android') {
       setTimeout(() => {
