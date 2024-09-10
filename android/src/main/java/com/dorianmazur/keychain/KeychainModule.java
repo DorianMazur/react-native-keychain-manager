@@ -129,7 +129,7 @@ public class KeychainModule extends ReactContextBaseJavaModule {
   //region Members
   /** Name-to-instance lookup  map. */
   private final Map<String, CipherStorage> cipherStorageMap = new HashMap<>();
-  /** Shared preferences storage. */
+  /** Preferences storage. */
   private final PrefsStorage prefsStorage;
   //endregion
 
@@ -138,7 +138,7 @@ public class KeychainModule extends ReactContextBaseJavaModule {
   /** Default constructor. */
   public KeychainModule(@NonNull final ReactApplicationContext reactContext) {
     super(reactContext);
-    prefsStorage = new PrefsStorage(reactContext);
+    prefsStorage = new DataStorePrefsStorage(reactContext);
 
     addCipherStorageToMap(new CipherStorageFacebookConceal(reactContext));
     addCipherStorageToMap(new CipherStorageKeystoreAesCbc());
@@ -380,7 +380,7 @@ public class KeychainModule extends ReactContextBaseJavaModule {
           cipherStorage.removeKey(alias);
         }
       }
-      // And then we remove the entry in the shared preferences
+      // And then we remove the entry in the preferences
       prefsStorage.removeEntry(alias);
 
       promise.resolve(true);
