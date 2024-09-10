@@ -8,6 +8,7 @@
   "react-native": "./src/index",
   "source": "./src/index",
   "files": [
+    "src",
     "android",
     "ios/RNKeychain.xcodeproj",
     "ios/RNKeychainManager",
