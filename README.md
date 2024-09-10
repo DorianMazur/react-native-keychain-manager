@@ -455,7 +455,7 @@ The module will automatically use the appropriate CipherStorage implementation b
 - API level 16-22 will en/de crypt using Facebook Conceal
 - API level 23+ will en/de crypt using Android Keystore
 
-Encrypted data is stored in SharedPreferences.
+Encrypted data is stored in DataStore Preferences.
 
 The `setInternetCredentials(server, username, password)` call will be resolved as call to `setGenericPassword(username, password, server)`. Use the `server` argument to distinguish between multiple entries.
 
