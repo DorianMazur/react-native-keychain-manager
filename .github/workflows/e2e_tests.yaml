@@ -4,9 +4,13 @@ on:
   push:
     branches:
       - main
+    paths-ignore:
+      - 'package.json'
   pull_request:
     branches:
       - main
+    paths-ignore:
+      - 'package.json'
 
 jobs:
   build-android:
