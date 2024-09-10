@@ -1,11 +1,5 @@
 <h1 align="center">react-native-keychain-manager</h1>
 
-<p align="center"><img
-    src="https://user-images.githubusercontent.com/378279/36642269-6195b10c-1a3d-11e8-9e1b-37a3d1bcf7b3.png"
-    align="center" width="150" height="201" alt=""
-  />
-</p>
-
 [![npm](https://img.shields.io/npm/v/react-native-keychain-manager.svg)](https://npmjs.com/package/react-native-keychain-manager)
 
 # Keychain/Keystore Access for React Native
