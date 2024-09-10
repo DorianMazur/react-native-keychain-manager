@@ -5,7 +5,7 @@ folly_compiler_flags = '-DFOLLY_NO_CONFIG -DFOLLY_MOBILE=1 -DFOLLY_USE_LIBCPP=1 
 
 Pod::Spec.new do |s|
 
-  s.name           = "RNKeychain"
+  s.name           = "RNKeychainManager"
   s.version        = version
   s.summary        = "Keychain Access for React Native."
   s.homepage       = "https://github.com/DorianMazur/react-native-keychain-manager"

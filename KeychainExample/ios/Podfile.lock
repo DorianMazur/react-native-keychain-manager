@@ -1145,7 +1145,7 @@ PODS:
     - React-Core
     - React-jsi
   - ReactTestApp-Resources (1.0.0-dev)
-  - RNKeychain (8.2.0):
+  - RNKeychainManager (1.1.1):
     - DoubleConversion
     - glog
     - RCT-Folly (= 2024.01.01.00)
@@ -1226,7 +1226,7 @@ DEPENDENCIES:
   - "ReactNativeHost (from `../node_modules/@rnx-kit/react-native-host`)"
   - ReactTestApp-DevSupport (from `../node_modules/react-native-test-app`)
   - ReactTestApp-Resources (from `..`)
-  - RNKeychain (from `../..`)
+  - RNKeychainManager (from `../..`)
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
 SPEC REPOS:
@@ -1342,7 +1342,7 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native-test-app"
   ReactTestApp-Resources:
     :path: ".."
-  RNKeychain:
+  RNKeychainManager:
     :path: "../.."
   Yoga:
     :path: "../node_modules/react-native/ReactCommon/yoga"
@@ -1402,7 +1402,7 @@ SPEC CHECKSUMS:
   ReactNativeHost: 2bc85a4cc8f2e7e7fef5e551d4adb9c90757859f
   ReactTestApp-DevSupport: 74676edd899013becce4eaecc5eabba1fc51e26e
   ReactTestApp-Resources: 857244f3a23f2b3157b364fa06cf3e8866deff9c
-  RNKeychain: 70a32d9f845cf928ab367ad9c0a9050eb3d5206c
+  RNKeychainManager: 4fa161c5b7eb67ae843f7f0684b8838b92a7077d
   SocketRocket: abac6f5de4d4d62d24e11868d7a2f427e0ef940d
   Yoga: 950bbfd7e6f04790fdb51149ed51df41f329fcc8
 

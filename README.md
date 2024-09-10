@@ -309,16 +309,16 @@ A: Do call `setGenericPassword({ ...otherProps, storage: "AES" })` with forced s
 
 #### Option: Manually
 
-- Right click on Libraries, select **Add files to "…"** and select `node_modules/react-native-keychain-manager/RNKeychain.xcodeproj`
-- Select your project and under **Build Phases** -> **Link Binary With Libraries**, press the + and select `libRNKeychain.a`.
-- make sure `pod 'RNKeychain'` is not in your `Podfile`
+- Right click on Libraries, select **Add files to "…"** and select `node_modules/react-native-keychain-manager/RNKeychainManager.xcodeproj`
+- Select your project and under **Build Phases** -> **Link Binary With Libraries**, press the + and select `libRNKeychainManager.a`.
+- make sure `pod 'RNKeychainManager'` is not in your `Podfile`
 
 #### Option: With [CocoaPods](https://cocoapods.org/)
 
 Add the following to your `Podfile` and run `pod update`:
 
 ```
-pod 'RNKeychain', :path => '../node_modules/react-native-keychain-manager'
+pod 'RNKeychainManager', :path => '../node_modules/react-native-keychain-manager'
 ```
 
 #### Enable `Keychain Sharing` entitlement for iOS 10+

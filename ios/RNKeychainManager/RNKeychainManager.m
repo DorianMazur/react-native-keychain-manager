@@ -304,7 +304,7 @@ SecAccessControlCreateFlags accessControlValue(NSDictionary *options)
   return services;
 }
 
-#pragma mark - RNKeychain
+#pragma mark - RNKeychainManager
 
 #if TARGET_OS_IOS || TARGET_OS_VISION
 RCT_EXPORT_METHOD(canCheckAuthentication:(NSDictionary * __nullable)options

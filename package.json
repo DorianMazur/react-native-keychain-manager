@@ -10,10 +10,10 @@
   "files": [
     "src",
     "android",
-    "ios/RNKeychain.xcodeproj",
+    "ios/RNKeychainManager.xcodeproj",
     "ios/RNKeychainManager",
     "lib",
-    "RNKeychain.podspec"
+    "RNKeychainManager.podspec"
   ],
   "scripts": {
     "format": "prettier '{,typings/,KeychainExample/}*.{md,js,json,ts,tsx}' --write",
@@ -69,7 +69,7 @@
     "node": ">=18"
   },
   "codegenConfig": {
-    "name": "RNKeychainSpec",
+    "name": "RNKeychainManagerSpec",
     "type": "modules",
     "jsSrcsDir": "src",
     "android": {

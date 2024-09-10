@@ -39,8 +39,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		4F9F3CBB26B8FD1000F34E8C /* libRNKeychain-macOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libRNKeychain-macOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5D82366F1B0CE05B005A9EF3 /* libRNKeychain.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNKeychain.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F9F3CBB26B8FD1000F34E8C /* libRNKeychainManager-macOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libRNKeychainManager-macOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D82366F1B0CE05B005A9EF3 /* libRNKeychainManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNKeychainManager.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D82368B1B0CE2A6005A9EF3 /* RNKeychainManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNKeychainManager.h; sourceTree = "<group>"; };
 		5D82368C1B0CE2A6005A9EF3 /* RNKeychainManager.m */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = sourcecode.c.objc; path = RNKeychainManager.m; sourceTree = "<group>"; tabWidth = 2; };
 		5D8236901B0CE3D6005A9EF3 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
@@ -90,9 +90,9 @@
 		5D8236701B0CE05B005A9EF3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5D82366F1B0CE05B005A9EF3 /* libRNKeychain.a */,
+				5D82366F1B0CE05B005A9EF3 /* libRNKeychainManager.a */,
 				6478985F1F38BF9100DA1C12 /* libRNKeychain.a */,
-				4F9F3CBB26B8FD1000F34E8C /* libRNKeychain-macOS.a */,
+				4F9F3CBB26B8FD1000F34E8C /* libRNKeychainManager-macOS.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -143,9 +143,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		4F9F3CBA26B8FD1000F34E8C /* RNKeychain-macOS */ = {
+		4F9F3CBA26B8FD1000F34E8C /* RNKeychainManager-macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4F9F3CC326B8FD1000F34E8C /* Build configuration list for PBXNativeTarget "RNKeychain-macOS" */;
+			buildConfigurationList = 4F9F3CC326B8FD1000F34E8C /* Build configuration list for PBXNativeTarget "RNKeychainManager-macOS" */;
 			buildPhases = (
 				4F9F3CB726B8FD1000F34E8C /* Headers */,
 				4F9F3CB826B8FD1000F34E8C /* Sources */,
@@ -155,14 +155,14 @@
 			);
 			dependencies = (
 			);
-			name = "RNKeychain-macOS";
-			productName = "RNKeychain-macOS";
-			productReference = 4F9F3CBB26B8FD1000F34E8C /* libRNKeychain-macOS.a */;
+			name = "RNKeychainManager-macOS";
+			productName = "RNKeychainManger-macOS";
+			productReference = 4F9F3CBB26B8FD1000F34E8C /* libRNKeychainManager-macOS.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		5D82366E1B0CE05B005A9EF3 /* RNKeychain */ = {
+		5D82366E1B0CE05B005A9EF3 /* RNKeychainManager */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5D8236831B0CE05B005A9EF3 /* Build configuration list for PBXNativeTarget "RNKeychain" */;
+			buildConfigurationList = 5D8236831B0CE05B005A9EF3 /* Build configuration list for PBXNativeTarget "RNKeychainManager" */;
 			buildPhases = (
 				5D82366B1B0CE05B005A9EF3 /* Sources */,
 				5D82366C1B0CE05B005A9EF3 /* Frameworks */,
@@ -173,14 +173,14 @@
 			);
 			dependencies = (
 			);
-			name = RNKeychain;
-			productName = RNKeychain;
-			productReference = 5D82366F1B0CE05B005A9EF3 /* libRNKeychain.a */;
+			name = RNKeychainManager;
+			productName = RNKeychainManager;
+			productReference = 5D82366F1B0CE05B005A9EF3 /* libRNKeychainManager.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		6478985E1F38BF9100DA1C12 /* RNKeychain-tvOS */ = {
+		6478985E1F38BF9100DA1C12 /* RNKeychainManager-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 647898671F38BF9100DA1C12 /* Build configuration list for PBXNativeTarget "RNKeychain-tvOS" */;
+			buildConfigurationList = 647898671F38BF9100DA1C12 /* Build configuration list for PBXNativeTarget "RNKeychainManager-tvOS" */;
 			buildPhases = (
 				6478985B1F38BF9100DA1C12 /* Sources */,
 				6478985C1F38BF9100DA1C12 /* Frameworks */,
@@ -191,8 +191,8 @@
 			);
 			dependencies = (
 			);
-			name = "RNKeychain-tvOS";
-			productName = "RNKeychain-tvOS";
+			name = "RNKeychainManager-tvOS";
+			productName = "RNKeychainManager-tvOS";
 			productReference = 6478985F1F38BF9100DA1C12 /* libRNKeychain.a */;
 			productType = "com.apple.product-type.library.static";
 		};
@@ -218,7 +218,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5D82366A1B0CE05B005A9EF3 /* Build configuration list for PBXProject "RNKeychain" */;
+			buildConfigurationList = 5D82366A1B0CE05B005A9EF3 /* Build configuration list for PBXProject "RNKeychainManager" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -231,9 +231,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5D82366E1B0CE05B005A9EF3 /* RNKeychain */,
-				6478985E1F38BF9100DA1C12 /* RNKeychain-tvOS */,
-				4F9F3CBA26B8FD1000F34E8C /* RNKeychain-macOS */,
+				5D82366E1B0CE05B005A9EF3 /* RNKeychainManager */,
+				6478985E1F38BF9100DA1C12 /* RNKeychainManager-tvOS */,
+				4F9F3CBA26B8FD1000F34E8C /* RNKeychainManager-macOS */,
 			);
 		};
 /* End PBXProject section */
@@ -452,7 +452,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = RNKeychain;
+				PRODUCT_NAME = RNKeychainManager;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				TVOS_DEPLOYMENT_TARGET = 10.2;
@@ -468,7 +468,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = RNKeychain;
+				PRODUCT_NAME = RNKeychainManager;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				TVOS_DEPLOYMENT_TARGET = 10.2;
@@ -478,7 +478,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4F9F3CC326B8FD1000F34E8C /* Build configuration list for PBXNativeTarget "RNKeychain-macOS" */ = {
+		4F9F3CC326B8FD1000F34E8C /* Build configuration list for PBXNativeTarget "RNKeychainManager-macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4F9F3CC126B8FD1000F34E8C /* Debug */,
@@ -487,7 +487,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5D82366A1B0CE05B005A9EF3 /* Build configuration list for PBXProject "RNKeychain" */ = {
+		5D82366A1B0CE05B005A9EF3 /* Build configuration list for PBXProject "RNKeychainManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5D8236811B0CE05B005A9EF3 /* Debug */,
@@ -496,7 +496,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5D8236831B0CE05B005A9EF3 /* Build configuration list for PBXNativeTarget "RNKeychain" */ = {
+		5D8236831B0CE05B005A9EF3 /* Build configuration list for PBXNativeTarget "RNKeychainManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5D8236841B0CE05B005A9EF3 /* Debug */,
@@ -505,7 +505,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		647898671F38BF9100DA1C12 /* Build configuration list for PBXNativeTarget "RNKeychain-tvOS" */ = {
+		647898671F38BF9100DA1C12 /* Build configuration list for PBXNativeTarget "RNKeychainManager-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				647898651F38BF9100DA1C12 /* Debug */,

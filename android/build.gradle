@@ -95,7 +95,7 @@ dependencies {
 if (isNewArchitectureEnabled()) {
   react {
     jsRootDir = file("../src/")
-    libraryName = "RNKeychain"
+    libraryName = "RNKeychainManager"
     codegenJavaPackageName = "com.dorianmazur.keychain"
   }
 }
