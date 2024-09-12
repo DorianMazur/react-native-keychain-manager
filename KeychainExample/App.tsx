@@ -67,7 +67,6 @@ export default class KeychainExample extends Component {
   async save() {
     try {
       const start = new Date();
-      console.log(this.state);
       await Keychain.setGenericPassword(
         this.state.username,
         this.state.password,
